@@ -13,7 +13,7 @@ public class Dz2_1{
             System.out.print("Введите дробное число: ");
             try{
                 float b = Float.parseFloat(reader.readLine());
-                System.out.printf("Введенное число равно %f\n", b);
+                System.out.printf("Введенное число = %f\n", b);
                 a = false;
             } catch (IOException|NumberFormatException e) {
                 System.out.println("Неверный ввод. Введите дробное число!!!");
