@@ -16,7 +16,7 @@ public class Dz2_1{
                 System.out.printf("Введенное число = %f\n", b);
                 a = false;
             } catch (IOException|NumberFormatException e) {
-                System.out.println("Неверный ввод. Введите дробное число!!!");
+                System.out.println("Неверный ввод. Введите дробное число!");
             }
 
         }
